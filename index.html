@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="custom-theme">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!-- tailwind & daisyui -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .work-sans-font {
+            font-family: "Work Sans", sans-serif;
+        }
+    </style>
+    <title>Game World</title>
+</head>
+
+<body class="text-white work-sans-font">
+    <header class="relative w-full h-screen bg-no-repeat bg-center bg-cover mb-20"
+        style="background-image: url('images/Rectangle 19.png');">
+        <div class="absolute top-0 left-0 w-full h-full bg-black bg-opacity-50 z-0"></div>
+
+        <div class="relative z-10 navbar pt-5 px-4 lg:px-20">
+            <div class="navbar-start">
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden text-white">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content rounded-box z-[1] mt-3 w-52 p-2 shadow text-white font-light">
+                        <li><a>Home</a></li>
+                        <li><a>About</a></li>
+                        <li><a>New Game</a></li>
+                        <li><a>Contact Us</a></li>
+                    </ul>
+                </div>
+                <a class="text-2xl font-bold text-white"><span
+                        class="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#FFC536] to-[#232331]">Game</span>World</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1 text-white font-light">
+                    <li><a>Home</a></li>
+                    <li><a>About</a></li>
+                    <li><a>New Game</a></li>
+                    <li><a>Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="navbar-end hidden lg:flex">
+                <a class="bg-transparent border-[1px] px-6 py-2 md:px-8 md:py-3 rounded-md border-[#FFC536] text-[#FFC536]">Login</a>
+            </div>
+        </div>
+
+        <div class="relative z-10 px-4 lg:px-20 mt-20 w-full sm:w-[500px] lg:w-[700px] pb-20 lg:pb-40 mb-20">
+            <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4">The Ultimate Competitive <span class="text-[#ffc536]">Gaming</span>
+                Platform</h1>
+            <p class="font-light text-sm sm:text-base lg:text-lg">It's difficult to find examples of made it popular as a dummy text in the 1960s,
+                although McClintock says he remembers coming across the passage in a book of old metal.</p>
+            <div class="flex flex-col sm:flex-row gap-5 mt-5">
+                <button class="bg-[#FFC536] rounded-md px-6 py-3 text-[#050818] font-semibold">Join Us Now</button>
+                <button class="bg-transparent border-2 border-white px-6 py-3 rounded-md font-semibold">Read More</button>
+            </div>
+        </div>
+    </header>
+
+</body>
+
+</html>
